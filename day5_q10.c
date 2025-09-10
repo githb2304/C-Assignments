@@ -8,7 +8,7 @@ int main()
     int h,m,s;
     h=t/3600;
     m=t%3600/60;
-    s=m%60;
+    s=m*60;
     printf("%d:%d:%d",h,m,s);
     return 0;
 }
